@@ -15,6 +15,6 @@ class InscripcionController extends Controller
     }
 
     public function show($inscripcion){
-        return view('inscripciones.show');
+        return view('inscripciones.show', compact('inscripcion'));
     }
 }

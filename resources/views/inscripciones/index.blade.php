@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
-    </head>
-    <body>
-        <h1>Bienvenido a la pagina de inscripcion</h1>
-    </body>
-    </html>
+@extends('layouts.plantilla')
+
+@section('title', 'Inscripciones ')
+
+@section('content')
+    <h1>Bienvenido a la pagina de inscripcion</h1>
+@endsection
+
