@@ -6,7 +6,7 @@
     <title>Document</title>
     </head>
     <body>
-        <h1>Bienvenido a la inscripcion : $inscripcion</h1>
+        <h1>Bienvenido a la inscripcion :<?php echo $inscripcion?></h1>
     </body>
     </html>
 

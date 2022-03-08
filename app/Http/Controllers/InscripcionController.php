@@ -7,14 +7,14 @@ use Illuminate\Http\Request;
 class InscripcionController extends Controller
 {
     public function index(){
-        return "Bienvenido a la pagina de inscripcion";
+        return view('inscripciones.index');
     }
 
     public function create(){
-        return "en esta pagina crearas una nueva inscripcion";
+        return view('inscripciones.create');
     }
 
     public function show($inscripcion){
-        return "Bienvenido a la inscripcion : $inscripcion";
+        return view('inscripciones.show');
     }
 }
